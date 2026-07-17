@@ -1,0 +1,30 @@
+generated: '2026-07-17'
+method: searched
+source: https://threshold.vc/team
+type: Team
+team:
+  - name: Emily Melton
+    role: Managing Partner
+    source: https://threshold.vc/team
+  - name: Josh Stein
+    role: Managing Partner
+    twitter: https://twitter.com/joshsteinvc
+    source: https://threshold.vc/team
+  - name: Heidi Roizen
+    role: Partner
+    source: https://threshold.vc/team
+  - name: Mohammad Islam
+    role: Partner
+    source: https://threshold.vc/team
+  - name: Andreas Stavropoulos
+    role: Partner
+    source: https://threshold.vc/team
+  - name: Bill Bryant
+    role: General Partner
+    source: https://threshold.vc/team
+  - name: Chirag Chotalia
+    role: Partner
+    source: https://threshold.vc/team
+  - name: Katie Evans
+    role: Investor
+    source: https://threshold.vc/team

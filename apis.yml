@@ -1,0 +1,85 @@
+aid: threshold-ventures
+name: Threshold Ventures
+description: >-
+  Threshold Ventures is an early-stage venture capital firm based in Menlo Park,
+  California that backs founder-led technology companies at the threshold of
+  breakout growth. Threshold is the 2019 rebrand of Draper Fisher Jurvetson
+  (DFJ), the storied Sand Hill Road firm founded in 1985; managing partners Emily
+  Melton and Josh Stein spun the venture practice into an independent, focused
+  fund. Threshold pursues a high-conviction strategy, concentrating on a small
+  number of Series A and Series B investments and partnering hands-on with
+  founders for the long term, frequently holding board seats through IPO and
+  beyond. The firm invests across enterprise software and SaaS, developer tools
+  and infrastructure, fintech, digital health and healthcare, and AI. Its
+  portfolio has produced 10 unicorns, 3 IPOs, and 17 acquisitions, and includes
+  Box, Twilio, Redfin, Remitly, Doximity, Rippling, LaunchDarkly, Livongo, and
+  Talkdesk. Threshold has invested in roughly 87 companies and raised a ~$250M
+  fund following the rebrand.
+image: https://threshold.vc/favicon.ico
+x-type: venture-capital
+x-category: Venture Capital
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+tags:
+  - Venture Capital
+  - Series A
+  - Series B
+  - Early Stage
+  - Enterprise Software
+  - SaaS
+  - Fintech
+  - Digital Health
+  - Developer Tools
+  - Infrastructure
+  - AI
+  - Silicon Valley
+  - United States
+apis: []
+common:
+  - type: Website
+    url: https://threshold.vc/
+  - type: About
+    url: https://threshold.vc/about
+  - type: Portfolio
+    url: https://threshold.vc/portfolio
+  - type: Portfolio
+    url: portfolio/threshold-ventures-portfolio.yml
+  - type: Team
+    url: https://threshold.vc/team
+  - type: Team
+    url: team/threshold-ventures-team.yml
+  - type: News
+    url: https://threshold.vc/newsroom/latest
+  - type: Blog
+    url: https://threshold.vc/newsroom/viewpoints
+  - type: Blog
+    url: https://medium.com/threshold-ventures
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/threshold
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/thresholdvc
+  - type: Twitter
+    url: https://twitter.com/thresholdvc
+  - type: Features
+    data:
+      - 'Stage: Series A, Series B (early stage)'
+      - 'Sectors: enterprise software, SaaS, developer tools, infrastructure, fintech, digital health, AI'
+      - 'Geography: United States (Silicon Valley focus)'
+      - 'Founded: 1985 (as DFJ); rebranded to Threshold in 2019'
+      - 'HQ: Menlo Park / Palo Alto, California'
+      - 'Fund: ~$250M raised post-rebrand'
+      - 'Investments: ~87 companies; 10 unicorns, 3 IPOs, 17 acquisitions'
+    sources:
+      - https://threshold.vc/about
+      - https://news.crunchbase.com/venture/threshold-formerly-known-as-dfj-targets-250m-for-latest-venture-fund/
+      - https://www.crunchbase.com/organization/threshold
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: https://apisjson.org
+  - FN: Threshold Ventures
+    url: https://threshold.vc
