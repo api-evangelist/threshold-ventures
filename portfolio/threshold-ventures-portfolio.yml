@@ -3,9 +3,9 @@ method: searched
 source: https://threshold.vc/portfolio
 summary:
   portfolio_total: 86
-  in_network: 28
-  api_providers: 16
-  missing: 58
+  in_network: 86
+  api_providers: 21
+  missing: 0
   stubs_created: 0
 companies:
 - name: Box
@@ -26,9 +26,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://threshold.vc/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: doximity
+  in_network: true
+  is_api_provider: true
+  slug: doximity
+  matched_by: domain
 - name: Livongo
   url: https://www.livongo.com/
   description: Digital health platform for chronic condition management (acquired by Teladoc).
@@ -36,9 +37,10 @@ companies:
   stage: unknown
   status: acquired
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: livongo
+  slug: livongo
+  matched_by: domain
 - name: Redfin
   url: https://www.redfin.com/
   description: Technology-powered residential real estate brokerage (acquired by Rocket Companies).
@@ -57,9 +59,10 @@ companies:
   stage: unknown
   status: ipo
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: remitly
+  slug: remitly
+  matched_by: domain
 - name: Rippling
   url: https://www.rippling.com/
   description: Workforce management platform unifying HR, IT, and finance.
@@ -89,9 +92,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: adaption-labs
+  in_network: true
+  is_api_provider: true
+  slug: adaption-labs
+  matched_by: domain
 - name: AngelList
   url: https://www.angellist.com/
   description: Platform for startup fundraising, venture funds, and cap-table management.
@@ -121,9 +125,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: attuned-intelligence
+  slug: attuned-intelligence
+  matched_by: domain
 - name: AutoLeap
   url: https://autoleap.com/
   description: Shop-management software for auto repair businesses.
@@ -153,9 +158,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: benepass
+  slug: benepass
+  matched_by: domain
 - name: BentoBox
   url: https://getbento.com/
   description: Website and digital storefront platform for restaurants (acquired by Fiserv).
@@ -177,7 +183,7 @@ companies:
   slug: betterup
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Bluefish AI
   url: https://www.bluefishai.com/
   description: AI brand and content management for generative-answer engines.
@@ -185,9 +191,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bluefish-ai
+  slug: bluefish-ai
+  matched_by: domain
 - name: Brightline
   url: https://hellobrightline.com/
   description: Virtual behavioral health care for children and families.
@@ -195,9 +202,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: brightline
+  slug: brightline
+  matched_by: domain
 - name: Calibrate
   url: https://www.joincalibrate.com/
   description: Metabolic health and medical weight-loss program.
@@ -205,9 +213,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: calibrate
+  slug: calibrate
+  matched_by: domain
 - name: ChangeEngine
   url: https://www.changeengine.com/
   description: Employee-experience and internal-communications design platform.
@@ -215,9 +224,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: changeengine
+  slug: changeengine
+  matched_by: domain
 - name: Chartbeat
   url: https://chartbeat.com/
   description: Real-time content analytics for publishers and media.
@@ -225,9 +235,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: chartbeat
+  slug: chartbeat
+  matched_by: domain
 - name: Chef
   url: https://www.chef.io/
   description: Infrastructure automation and configuration management (acquired by Progress).
@@ -279,9 +290,10 @@ companies:
   stage: unknown
   status: acquired
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: crowdai
+  slug: crowdai
+  matched_by: domain
 - name: Daero Group
   url: https://www.daerogroup.com/
   description: Technology company (Threshold portfolio).
@@ -289,9 +301,10 @@ companies:
   stage: unknown
   status: unknown
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: daero-group
+  slug: daero-group
+  matched_by: domain
 - name: Databook
   url: https://www.trydatabook.com/
   description: AI-powered customer intelligence platform for enterprise sales.
@@ -299,9 +312,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: databook
+  slug: databook
+  matched_by: name-slug
 - name: Diamanti
   url: https://www.diamanti.com/
   description: Kubernetes infrastructure and hyperconverged platform for containers.
@@ -309,9 +323,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: diamanti
+  slug: diamanti
+  matched_by: domain
 - name: Divvy Homes
   url: https://www.divvyhomes.com/
   description: Rent-to-own home-financing platform (acquired by Brookfield).
@@ -319,9 +334,10 @@ companies:
   stage: unknown
   status: acquired
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: divvy-homes
+  slug: divvy-homes
+  matched_by: domain
 - name: EdgeQ
   url: https://www.edgeq.io/
   description: 5G and AI base-station chip company.
@@ -329,9 +345,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: edgeq
+  slug: edgeq
+  matched_by: domain
 - name: Elation Health
   url: http://elationhealth.com/
   description: Clinical-first electronic health record platform for primary care.
@@ -350,9 +367,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: elementary
+  slug: elementary
+  matched_by: domain
 - name: Enclave
   url: https://enclave.ai/
   description: Private, on-device AI assistant company.
@@ -360,9 +378,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: enclave
+  slug: enclave
+  matched_by: domain
 - name: Epocrates
   url: http://www.epocrates.com/
   description: Clinical drug-reference and decision-support app (acquired by athenahealth).
@@ -370,9 +389,10 @@ companies:
   stage: unknown
   status: acquired
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: epocrates
+  slug: epocrates
+  matched_by: domain
 - name: Forward Networks
   url: http://www.forwardnetworks.com/
   description: Network digital-twin and reliability platform.
@@ -380,9 +400,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: forward-networks
+  in_network: true
+  is_api_provider: true
+  slug: forward-networks
+  matched_by: domain
 - name: Freeform
   url: https://freeform.co/
   description: AI-driven autonomous metal additive manufacturing.
@@ -390,9 +411,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: freeform
+  slug: freeform
+  matched_by: domain
 - name: Freshpaint
   url: https://www.freshpaint.io/
   description: Healthcare privacy and marketing data-governance platform.
@@ -411,9 +433,9 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  slug: front
+  slug: frontapp
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: HumanFirst
   url: https://www.gohumanfirst.com/
@@ -422,9 +444,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: humanfirst
+  slug: humanfirst
+  matched_by: domain
 - name: Imagen
   url: https://imagen.ai/
   description: AI radiology and diagnostic imaging company.
@@ -432,9 +455,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: imagen
+  slug: imagen
+  matched_by: domain
 - name: Imbue
   url: https://imbue.com/
   description: AI research lab building reasoning agents.
@@ -464,9 +488,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: instil
+  slug: instil
+  matched_by: domain
 - name: Inertia
   url: https://inertia.com/
   description: Technology company (Threshold portfolio).
@@ -474,9 +499,10 @@ companies:
   stage: unknown
   status: unknown
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: inertia
+  slug: inertia
+  matched_by: domain
 - name: LaborUp
   url: https://www.laborup.com/
   description: Workforce and labor-management platform.
@@ -484,9 +510,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: laborup
+  slug: laborup
+  matched_by: domain
 - name: LaunchDarkly
   url: http://launchdarkly.com/
   description: Feature-flag management and progressive delivery platform.
@@ -505,9 +532,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: lendkey
+  in_network: true
+  is_api_provider: true
+  slug: lendkey
+  matched_by: domain
 - name: Loftium
   url: https://www.loftium.com/
   description: Home-financing and short-term rental platform.
@@ -515,9 +543,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: loftium
+  slug: loftium
+  matched_by: domain
 - name: Lumity
   url: http://www.lumity.com/
   description: Data-driven employee benefits brokerage.
@@ -525,9 +554,10 @@ companies:
   stage: unknown
   status: acquired
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lumity
+  slug: lumity
+  matched_by: domain
 - name: M7 Health
   url: https://www.m7health.com/
   description: Clinical staffing and scheduling platform for nurses.
@@ -535,9 +565,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: m7-health
+  slug: m7-health
+  matched_by: domain
 - name: Mendaera
   url: https://www.mendaera.com/
   description: Handheld robotics and AI for precision medical procedures.
@@ -545,9 +576,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mendaera
+  slug: mendaera
+  matched_by: domain
 - name: Mindshow
   url: https://www.mindshow.com/
   description: AI-powered animation and content-creation platform.
@@ -555,9 +587,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mindshow
+  slug: mindshow
+  matched_by: domain
 - name: MoonLake AI
   url: https://moonlakeai.com/
   description: AI company.
@@ -565,9 +598,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: moonlake-ai
+  slug: moonlake-ai
+  matched_by: domain
 - name: Motion
   url: https://motionapp.com/
   description: AI-powered calendar, task, and project automation tool.
@@ -575,9 +609,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: motion
+  slug: motion
+  matched_by: domain
 - name: Mythic
   url: https://mythic.ai/
   description: Analog AI compute chips for edge inference.
@@ -585,9 +620,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mythic
+  slug: mythic
+  matched_by: domain
 - name: Numa
   url: https://www.numa.com/
   description: AI agents and automation for automotive dealerships.
@@ -595,9 +631,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: numa
+  slug: numa
+  matched_by: domain
 - name: ODAIA
   url: https://www.odaia.ai/
   description: AI customer-intelligence platform for life sciences.
@@ -605,9 +642,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: odaia
+  slug: odaia
+  matched_by: domain
 - name: Ooda Health
   url: http://ooda-health.com/
   description: Healthcare payments and administrative platform (acquired by Cedar).
@@ -615,9 +653,10 @@ companies:
   stage: unknown
   status: acquired
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ooda-health
+  slug: ooda-health
+  matched_by: domain
 - name: OpsLevel
   url: https://www.opslevel.com/
   description: Internal developer portal and service-catalog platform.
@@ -647,9 +686,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: parspec
+  slug: parspec
+  matched_by: domain
 - name: Periscope Data
   url: http://periscopedata.com/
   description: Data analytics and BI platform (acquired by Sisense).
@@ -657,9 +697,10 @@ companies:
   stage: unknown
   status: acquired
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: periscope-data
+  slug: periscope-data
+  matched_by: domain
 - name: Probably Genetic
   url: https://www.probablygenetic.com/
   description: Genetic testing and rare-disease diagnosis platform.
@@ -667,9 +708,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: probably-genetic
+  slug: probably-genetic
+  matched_by: domain
 - name: QA Wolf
   url: https://www.qawolf.com/
   description: Managed end-to-end automated software testing.
@@ -677,9 +719,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: qa-wolf
+  in_network: true
+  is_api_provider: true
+  slug: qa-wolf
+  matched_by: domain
 - name: Ritten
   url: https://www.ritten.io/
   description: Electronic health record for behavioral health and addiction treatment.
@@ -687,9 +730,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ritten
+  slug: ritten
+  matched_by: domain
 - name: Salvo Health
   url: https://www.salvohealth.com/
   description: Virtual specialty care for chronic digestive conditions.
@@ -697,9 +741,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: salvo-health
+  slug: salvo-health
+  matched_by: domain
 - name: Sanity
   url: https://www.sanity.io/
   description: Composable content platform and structured-content backend.
@@ -718,9 +763,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sequen-ai
+  slug: sequen-ai
+  matched_by: domain
 - name: Sidekick Data
   url: https://sidekickdata.io/
   description: Data pipeline and analytics tooling company.
@@ -728,9 +774,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sidekick-data
+  slug: sidekick-data
+  matched_by: domain
 - name: Spellbook
   url: https://www.spellbook.legal/
   description: Generative-AI contract drafting and review for lawyers.
@@ -749,9 +796,10 @@ companies:
   stage: unknown
   status: acquired
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sugarcrm
+  slug: sugarcrm
+  matched_by: domain
 - name: Suger
   url: https://www.suger.io/
   description: Cloud marketplace and co-sell operations platform.
@@ -792,9 +840,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: topos-bio
+  slug: topos-bio
+  matched_by: domain
 - name: Transcarent
   url: https://transcarent.ai/
   description: AI-powered health and care navigation platform for employers.
@@ -802,9 +851,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: transcarent
+  slug: transcarent
+  matched_by: domain
 - name: Upside Foods
   url: https://www.upsidefoods.com/
   description: Cultivated (cell-based) meat company.
@@ -812,9 +862,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: upside-foods
+  slug: upsidefoods
+  matched_by: domain
 - name: Verge Labs
   url: https://vergelabs.com/
   description: AI research and applications company.
@@ -822,9 +873,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: verge-labs
+  slug: verge-genomics
+  matched_by: domain
 - name: Veritus
   url: https://veritus.com/
   description: Technology company (Threshold portfolio).
@@ -832,9 +884,10 @@ companies:
   stage: unknown
   status: unknown
   source: https://threshold.vc/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: veritus
+  in_network: true
+  is_api_provider: true
+  slug: veritus
+  matched_by: domain
 - name: Videa
   url: https://www.videa.ai/
   description: AI dental radiography and diagnostics company.
@@ -853,9 +906,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vitaler
+  slug: vitaler
+  matched_by: name-slug
 - name: Viz.ai
   url: https://www.viz.ai/
   description: AI-powered disease-detection and care-coordination platform.
@@ -863,9 +917,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vizai
+  slug: vizai
+  matched_by: domain
 - name: Wellframe
   url: http://www.wellframe.com/
   description: Digital care management and member-engagement platform (acquired by HealthEdge).
@@ -873,9 +928,10 @@ companies:
   stage: unknown
   status: acquired
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wellframe
+  slug: wellframe
+  matched_by: domain
 - name: Xealth
   url: http://xealth.io/
   description: Digital health prescribing and integration platform for health systems.
@@ -883,9 +939,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: xealth
+  slug: xealth
+  matched_by: domain
 - name: Yellowbrick Data
   url: https://yellowbrick.com/
   description: Elastic SQL data warehouse for hybrid and multi-cloud.
@@ -893,6 +950,7 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yellowbrick-data
+  slug: yellowbrick-data
+  matched_by: name-slug
