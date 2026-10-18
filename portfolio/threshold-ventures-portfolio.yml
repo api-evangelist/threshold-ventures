@@ -3,9 +3,9 @@ method: searched
 source: https://threshold.vc/portfolio
 summary:
   portfolio_total: 86
-  in_network: 86
-  api_providers: 21
-  missing: 0
+  in_network: 81
+  api_providers: 24
+  missing: 5
   stubs_created: 0
 companies:
 - name: Box
@@ -94,7 +94,7 @@ companies:
   source: https://threshold.vc/portfolio
   in_network: true
   is_api_provider: true
-  slug: adaption-labs
+  slug: adaption
   matched_by: domain
 - name: AngelList
   url: https://www.angellist.com/
@@ -246,7 +246,7 @@ companies:
   stage: unknown
   status: acquired
   source: https://threshold.vc/portfolio
-  slug: chef
+  slug: chef-software
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -279,10 +279,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  slug: core
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  x-name-collision: core
+  suggested_slug: coreauto-com
 - name: CrowdAI
   url: https://www.crowdai.com/
   description: Computer-vision and no-code AI platform (acquired by Saab).
@@ -312,10 +312,10 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: databook
-  matched_by: name-slug
+  x-name-collision: databook
+  suggested_slug: trydatabook-com
 - name: Diamanti
   url: https://www.diamanti.com/
   description: Kubernetes infrastructure and hyperconverged platform for containers.
@@ -356,7 +356,7 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  slug: elation
+  slug: elation-health
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -435,7 +435,7 @@ companies:
   source: https://threshold.vc/portfolio
   slug: frontapp
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: HumanFirst
   url: https://www.gohumanfirst.com/
@@ -479,7 +479,7 @@ companies:
   source: https://threshold.vc/portfolio
   slug: inscribe
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Instil
   url: https://www.instil.io/
@@ -731,7 +731,7 @@ companies:
   status: active
   source: https://threshold.vc/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: ritten
   matched_by: domain
 - name: Salvo Health
@@ -796,10 +796,10 @@ companies:
   stage: unknown
   status: acquired
   source: https://threshold.vc/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: sugarcrm
-  matched_by: domain
+  x-name-collision: sugarcrm
+  suggested_slug: sugarcrm-com
 - name: Suger
   url: https://www.suger.io/
   description: Cloud marketplace and co-sell operations platform.
@@ -829,7 +829,7 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  slug: tia-women
+  slug: tia
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -864,7 +864,7 @@ companies:
   source: https://threshold.vc/portfolio
   in_network: true
   is_api_provider: false
-  slug: upsidefoods
+  slug: upside-foods
   matched_by: domain
 - name: Verge Labs
   url: https://vergelabs.com/
@@ -875,7 +875,7 @@ companies:
   source: https://threshold.vc/portfolio
   in_network: true
   is_api_provider: false
-  slug: verge-genomics
+  slug: verge-labs
   matched_by: domain
 - name: Veritus
   url: https://veritus.com/
@@ -906,10 +906,9 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: vitaler
-  matched_by: name-slug
+  suggested_slug: vitaler
 - name: Viz.ai
   url: https://www.viz.ai/
   description: AI-powered disease-detection and care-coordination platform.
@@ -950,7 +949,7 @@ companies:
   stage: unknown
   status: active
   source: https://threshold.vc/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: yellowbrick-data
-  matched_by: name-slug
+  x-name-collision: yellowbrick-data
+  suggested_slug: yellowbrick-com

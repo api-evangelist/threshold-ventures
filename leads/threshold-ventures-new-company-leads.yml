@@ -1,4 +1,39 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: threshold-ventures
-leads: []
+leads:
+- name: Core
+  url: https://www.coreauto.com/
+  suggested_slug: coreauto-com
+  sector: saas
+  source_vc: threshold-ventures
+  source: https://threshold.vc/portfolio
+  stub_created: false
+- name: Databook
+  url: https://www.trydatabook.com/
+  suggested_slug: trydatabook-com
+  sector: saas
+  source_vc: threshold-ventures
+  source: https://threshold.vc/portfolio
+  stub_created: false
+- name: SugarCRM
+  url: https://www.sugarcrm.com/
+  suggested_slug: sugarcrm-com
+  sector: saas
+  source_vc: threshold-ventures
+  source: https://threshold.vc/portfolio
+  stub_created: false
+- name: Vitaler
+  url: https://vitaler.com/
+  suggested_slug: vitaler
+  sector: healthcare
+  source_vc: threshold-ventures
+  source: https://threshold.vc/portfolio
+  stub_created: false
+- name: Yellowbrick Data
+  url: https://yellowbrick.com/
+  suggested_slug: yellowbrick-com
+  sector: developer-tools
+  source_vc: threshold-ventures
+  source: https://threshold.vc/portfolio
+  stub_created: false
